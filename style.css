@@ -8,7 +8,7 @@
 body{
     background-image:  url(./img/cafe-bg.png );
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: auto;
 }
 .container {
@@ -41,7 +41,7 @@ border-radius:20px ;
     margin-left:30px;
 }
 .content2{
-    margin-left:30px;
+    margin-left:70px;
     
     flex-direction: column;
 }
@@ -52,8 +52,11 @@ border-radius:20px ;
     height: 15vh;
 }
 .contant_item{
-    margin-left: 20px;
+    margin-right: 20px;
     color: #fff;
+    order: -1;
+    float: left;
+    
 }
 h4{
     color:gold;
